@@ -1,0 +1,15 @@
+vueÏîÄ¿Æô¶¯
+cnpm run dev
+
+{
+                	title:this.newFood.title,
+                	price:this.newFood.price,
+                	pic:this.newFood.pic,
+                	options:[
+                         {name:this.newFood.name1,quantity:this.newFood.quantity1},
+                         {name:this.newFood.name2,quantity:this.newFood.quantity2},
+                         {name:this.newFood.name3,quantity:this.newFood.quantity3},
+                         {name:this.newFood.name4,quantity:this.newFood.quantity4},
+                	]
+
+                }
