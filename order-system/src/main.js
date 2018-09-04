@@ -25,7 +25,7 @@ Vue.use(VueRouter)   //使用路由插件
 Vue.use(VueAwesomeSwiper/* { default global options } */)
 Vue.component('alert', alert)
 
-axios.defaults.baseURL = 'http://192.168.0.104:5000/api';   //设置默认路径，之后就只需要填写要请求的json文件就可以了
+axios.defaults.baseURL = 'http://localhost:5000/api';   //设置默认路径，之后就只需要填写要请求的json文件就可以了
 
 const router = new VueRouter({
 	routes,
